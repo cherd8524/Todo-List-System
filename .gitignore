@@ -1,0 +1,21 @@
+# Dependency Directory
+node_modules
+/dist
+/build
+
+# Secrets & Environment
+# Keep environment variables out of version control
+.env
+
+# Generated and Output Files (TypeScript/Prisma)
+/prisma/migrations
+/src/generated/prisma
+*.sqlite
+*.sqlite-journal
+*.db
+
+# Logs and Caches
+npm-debug.log*
+yarn-error.log*
+.npm
+.yarn-cache
